@@ -1,0 +1,241 @@
+/*
+//Arianna Cannon and Rebecca Lipton Final Project//
+//April 29th 2021//
+*/
+
+#title {
+  padding-top: 10px;
+    text-align: center;
+    margin-top: 350;
+    border: 2px solid black;
+    background-color: white;
+    height: 325px;
+    width: 725px;
+    margin-left: 270px;
+}
+
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-image: url("college-students.jpeg");
+    background-repeat: no-repeat;
+}
+
+/*Navigation*/
+nav ul {
+  list-style-type: none;
+  background-color: black;
+    padding: 25px;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    width: 1140;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    padding: 40px 85px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20;
+
+}
+
+li a:hover {
+    color: blue;
+}
+
+
+/*Footer image*/
+img{
+    width: 200;
+}
+
+/*All buttons*/
+button{
+    background-color: white;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*footer*/
+footer{
+    background-color: white;
+    margin-top: 100px;
+    width: 1200;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
+
+/*Footer image left*/
+#usnews{
+    padding-top: 20px;
+   display: inline-flex;
+    float: left;
+}
+
+/*Footer image right*/
+#satIMAGE{
+    display: inline-flex;
+    float: right;
+    margin-right: 20px;
+}
+
+/*hidden class for change views in JS*/
+.hidden{
+  display: none;
+}
+
+/*Start*/
+#form1{
+    font-family: 'Karla', sans-serif;
+    background-image: url("college.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+#form1>.text{
+    margin-top: 0px;
+}
+
+/*next button 1*/
+#next1{
+    margin-left: 370px;
+    font-size: 16px;
+}
+
+/*back button 1*/
+#back1{
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+/*Header for all forms*/
+#form1>h1, #form2>h1, #form3>h1, #form4>h1, #form5>h1 {
+    margin-top: 73px;
+    margin-left: 370px;
+    font-size: 32px;
+    background: white;
+    padding: 5px;
+    width: 420px;
+}
+
+/*All text class (p) */
+.text{
+    margin-top: 70px;
+    margin-left: 310px;
+    border: 3px solid black;
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+}
+
+.text>p{
+    font-size: 18px;
+}
+
+/*button style*/
+#back2, #next2, #back3, #next3, #back4{
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+/*button style*/
+#next2, #next3, #moreSchools {
+    margin-left: 380px;
+}
+
+/*background image for form*/
+#form2{
+    background-image: url("SAT.jpg");
+    height:100%;
+    width:100%;
+    font-family: 'Karla', sans-serif;
+}
+
+/*background image for form*/
+#form3{
+   background-image: url("size.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+/*background image for form*/
+#form4, #form5 {
+    background: 100%;
+    background-image: url("results.jpg");
+    background-repeat: repeat;
+}
+
+/*Background image for other HTML page*/
+#aboutus {
+    background-image: url(Kogod.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#about{
+  margin-top: 100px;
+}
+
+/*Background image for other HTML page*/
+#libArt {
+    background-image: url(libART.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/*Background image for other html page*/
+
+#uni {
+    background-image: url(uni.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/*Results style*/
+.resultList{
+    margin-top: 73px;
+    margin-left: 310px;
+    border: 10px solid blue;
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+}
+
+/*time bar progress*/
+#myProgress, #progress2, #progress3 {
+  width: 100%;
+  background-color: white;
+    border: 1px solid black;
+}
+
+/*time bar outline*/
+#myBar, #bar2, #bar3 {
+  width: 1%;
+  height: 30px;
+  background-color: skyblue;
+}
+
+/*FOR RESULTS OUTPUT*/
+li{
+    color: blue;
+    font-size: 16px;
+}
+ol{
+  font-size: 14px;
+}

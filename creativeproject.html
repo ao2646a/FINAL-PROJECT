@@ -1,0 +1,289 @@
+<!--
+//Arianna Cannon and Rebecca Lipton Final Project//
+//April 29th 2021//
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>College Choice Creator</title>
+    <link rel="stylesheet" href="creativeproject.css"/>
+    <script src="creativeproject.js"></script>
+      <style>
+          @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+</style>
+  </head>
+
+  <body>
+<!-- MAIN VIEW - WHERE USERS BEGIN     -->
+      <section id = "main-view">
+<!--Navigation-->
+      <nav>
+          <ul>
+            <li><a href="creativeproject.html">Home</a></li>
+            <li><a href="liberalarts.html">Liberal Arts</a></li>
+            <li><a href="universities.html">University Selection</a></li>
+            <li id = "us"><a href="aboutusColleges.html">About Us</a></li>
+          </ul>
+      </nav>
+<!-- Header-->
+    <header id = "title">
+      <h1>College Choice Creator</h1>
+            <p> Let us help you in finding the best fit for your undergraduate career. With around 5,300 different colleges in the U.S. to choose from, the school search process can seem daunting and be exhausting. Through filling out a couple of questions we can help narrow the search together.
+                <br>
+                <br>
+            Each page will have a stopwatch enabled on it. If you find yourself taking more than 5 minutes on each question, try to talk out the question with a friend or family member!
+              <br>
+              <br>
+            Let's get started!
+          </p>
+<!-- Start button-->
+              <button type = "button" id = "start"> Start! </button>
+  </header>
+          
+<!-- Footer-->
+          <footer>
+            <a href="https://www.usnews.com/best-colleges/rankings/national-universities">
+            <img id = "usnews" src = https://www.wane.com/wp-content/uploads/sites/21/2020/09/best-colleges.jpg alt = "US NEWS COLLEGE RANKING pic"></a>
+            <a href="https://collegereadiness.collegeboard.org/sat">
+            <img id = "satIMAGE" src = https://www.insidehighered.com/sites/default/server_files/media/SAT_2.jpg alt = "SAT pic"> </a>
+                <p>Authors: Arianna Cannon and Rebecca Lipton<br>
+                <a href="ao2646a@american.edu">ao2646a@american.edu</a> <br> <a href="rl5207a@student.american.edu">rl5207a@student.american.edu </a></p>
+              <p>
+            4400 Massachusetts Ave NW, Washington, DC 20016 </p>
+             <p> Created by two Computer Science students at American University </p> <br>
+
+  </footer>
+  </section>
+
+<!--class one-->
+<!--FORM1 - PRICE-->
+  <section id="form1" class= "hidden">
+      <!--Navigation-->
+            <nav>
+          <ul>
+            <li><a href="creativeproject.html">Home</a></li>
+            <li><a href="liberalarts.html">Liberal Arts</a></li>
+            <li><a href="universities.html">University Selection</a></li>
+            <li><a href="aboutusColleges.html">About Us</a></li>
+          </ul>
+      </nav>
+      <!--Header-->
+          <h1> College Choice Tool: Price </h1>
+
+    <!--class text-->
+      <div class = "text">
+        <p> After 5 minutes, the survey will automatically move to the next question. </p>
+<!-- PROGRESS BAR FOR JS-->
+          <div id ="myProgress">
+        <div id ="myBar"></div>
+          </div>
+          <br>
+          <p> Colleges and universities range in price depending on if they are public, private, in-state, and out of state. By selecting your price range we can better select matches that will fit your needs. If in need of federal aid, feel free to check out the federal aid link here: <a href = https://studentaid.gov/h/apply-for-aid/fafsa> FAFSA </a>. There will be time to investigate federal aid options for each match at the end of the survey as well.</p>
+        <label for="price"> Choose an annual tuition price:</label>
+<!--option section - user can select-->
+        <select class="price" id = "price">
+      <option value="0-5000"> $0.00 to $5,000</option>
+      <option value="5000-10000"> $5,001 to $10,000</option>
+      <option value="10000-20000"> $10,001 to $20,000</option>
+      <option value="20000-30000"> $20,001 to $30,000</option>
+      <option value="30000-40000"> $30,001 to $40,000</option>
+      <option value="40000-50000" selected> $40,001 to $50,000</option>
+      <option value="50000-60000"> $50,001 to $60,000</option>
+      <option value="60000-70000"> $60,001 to $70,000</option>
+      <option value ="70000-80000" > $70,001 to $80,000</option>
+      <option value="80000-90000"> $80,001 to $90,000</option>
+      <option value="90000-100000"> $90,001 to $100,000</option>
+      <option value="No limit"> Price does not matter</option>
+        </select>
+
+          <br>
+<!--BACK AND NEXT FOR USER-->
+        <button type = "button" id = "back1"> Back </button>
+        <button type = "button" id = "next1"> Next </button>
+      </div>
+<!--Footer-->
+       <footer>
+            <a href="https://www.usnews.com/best-colleges/rankings/national-universities">
+            <img id = "usnews" src = https://www.wane.com/wp-content/uploads/sites/21/2020/09/best-colleges.jpg alt = "US NEWS COLLEGE RANKING pic"></a>
+            <a href="https://collegereadiness.collegeboard.org/sat">
+            <img id = "satIMAGE" src = https://www.insidehighered.com/sites/default/server_files/media/SAT_2.jpg alt = "SAT pic"> </a>
+                <p>Authors: Arianna Cannon and Rebecca Lipton<br>
+                <a href="ao2646a@american.edu">ao2646a@american.edu</a> <br> <a href="rl5207a@student.american.edu">rl5207a@student.american.edu </a></p>
+              <p>
+            4400 Massachusetts Ave NW, Washington, DC 20016 </p>
+             <p> Created by two Computer Science students at American University </p> <br>
+
+  </footer>
+</section>
+<!--FORM2-->
+      <section id="form2" class= "hidden">
+            <nav>
+          <ul>
+            <li><a href="creativeproject.html">Home</a></li>
+            <li><a href="liberalarts.html">Liberal Arts</a></li>
+            <li><a href="universities.html">University Selection</a></li>
+            <li><a href="aboutusColleges.html">About Us</a></li>
+          </ul>
+      </nav>
+<!--HEADER-->
+          <h1> College Choice Tool: Test Scores</h1>
+      <div class = "text">
+        <p> After 5 minutes, the survey will automatically move to the next question. </p>
+          <!-- PROGRESS BAR FOR JS-->
+          <div id ="progress2">
+        <div id ="bar2"></div>
+          </div>
+
+          <br>
+          <p> There are many college and university options that require a baseline SAT or ACT score.  </p>
+        <p> Please input your SAT and/or ACT scores:</p>
+<!--DROPDOWNMENU FOR SAT SCORES-->
+        <label for="sat_dropdown"> SAT: </label>
+          <select class="sat" id = "sat">
+            <option value="0-600"> 0-600 </option>
+            <option value="601-700"> 601-700</option>
+            <option value="701-800"> 701-800</option>
+            <option value="801-900"> 801-900</option>
+            <option value="901-1000"> 901-1000</option>
+            <option value="1001-1100" selected> 1001-1100</option>
+            <option value="1101-1200"> 1101-1200</option>
+            <option value="1201-1300" > 1201-1300</option>
+            <option value="1301-1400"> 1301-1400</option>
+            <option value="1401-1500"> 1401-1500</option>
+            <option value="1501-1600"> 1501-1600</option>
+            <option value="No SAT"> I did not take the SAT</option>
+          </select>
+          <br>
+          <br>
+    <!--DROPDOWNMENU FOR ACT SCORES-->
+        <label for="act_dropdown"> ACT: </label>
+        <select class="act" id = "act">
+          <option value="0-10"> 0-10 </option>
+          <option value="11-13"> 11-13</option>
+          <option value="14-16"> 14-16</option>
+          <option value="17-19"> 17-19</option>
+          <option value="20-22"> 20-22</option>
+          <option value="23-25" selected > 23-25</option>
+          <option value="26-28"> 26-28</option>
+          <option value="29-31" > 29-31</option>
+          <option value="32-34"> 32-34</option>
+          <option value="35-36"> 35-36</option>
+          <option value="No ACT"> I did not take the ACT</option>
+        </select>
+          <div>
+<!--BACK AND NEXT BUTTONS-->
+        <button type = "button" id = "back2"> Back </button>
+          <button type = "button" id = "next2"> Next </button>
+              </div>
+      </div>
+           <footer>
+            <a href="https://www.usnews.com/best-colleges/rankings/national-universities">
+            <img id = "usnews" src = https://www.wane.com/wp-content/uploads/sites/21/2020/09/best-colleges.jpg alt = "US NEWS COLLEGE RANKING pic"></a>
+            <a href="https://collegereadiness.collegeboard.org/sat">
+            <img id = "satIMAGE" src = https://www.insidehighered.com/sites/default/server_files/media/SAT_2.jpg alt = "SAT pic"> </a>
+                <p>Authors: Arianna Cannon and Rebecca Lipton<br>
+                <a href="ao2646a@american.edu">ao2646a@american.edu</a> <br> <a href="rl5207a@student.american.edu">rl5207a@student.american.edu </a></p>
+              <p>
+            4400 Massachusetts Ave NW, Washington, DC 20016 </p>
+             <p> Created by two Computer Science students at American University </p> <br>
+  </footer>
+      </section>
+
+<!--FORM3-->
+            <section id="form3" class= "hidden">
+            <nav>
+          <ul>
+            <li><a href="creativeproject.html">Home</a></li>
+            <li><a href="liberalarts.html">Liberal Arts</a></li>
+            <li><a href="universities.html">Universities</a></li>
+            <li><a href="aboutusColleges.html">About Us</a></li>
+          </ul>
+      </nav>
+<!--Header-->
+          <h1> College Choice Tool: Size </h1>
+      <div class = "text">
+        <p> After 5 minutes, the survey will automatically move to the next question. </p>
+<!--Progress Bar-->
+            <div id ="progress3">
+        <div id ="bar3"></div>
+          </div>
+          <br>
+          <p> Every college and university ranges in amount of students. Some schools have less than 3,000 students, whereas others have more than 60,000. While some prefer a large student body, others prefer a smaller one. Both styles offer opportunities for community building, therefore the decision is completely up to your preference. If you would prefer a compromise between these options, feel free to click medium. </p>
+        <label for="size"> Choose a size:</label>
+<!--Size options-->
+        <select class="size" id = "schoolSize">
+            <option value="small">Small: 1,000 - 5,000 Students</option>
+            <option value="medium" selected>Medium: 5,000 - 15,000 Students</option>
+            <option value="large">Large: 15,000 - 70,000 Students</option>
+        </select>
+          <div>
+<!--Buttons for back and next-->
+        <button type = "button" id = "back3"> Back </button>
+          <button type = "button" id = "next3"> Next </button>
+              </div>
+      </div>
+
+<!--Footer-->
+                       <footer>
+            <a href="https://www.usnews.com/best-colleges/rankings/national-universities">
+            <img id = "usnews" src = https://www.wane.com/wp-content/uploads/sites/21/2020/09/best-colleges.jpg alt = "US NEWS COLLEGE RANKING pic"></a>
+            <a href="https://collegereadiness.collegeboard.org/sat">
+            <img id = "satIMAGE" src = https://www.insidehighered.com/sites/default/server_files/media/SAT_2.jpg alt = "SAT pic"> </a>
+                <p>Authors: Arianna Cannon and Rebecca Lipton<br>
+                <a href="ao2646a@american.edu">ao2646a@american.edu</a> <br> <a href="rl5207a@student.american.edu">rl5207a@student.american.edu </a></p>
+              <p>
+            4400 Massachusetts Ave NW, Washington, DC 20016 </p>
+             <p> Created by two Computer Science students at American University </p> <br>
+  </footer>
+      </section>
+
+<!--FORM4 - RESULTS-->
+        <section id = "form4" class = "hidden">
+            <nav>
+                <ul>
+                    <li><a href="creativeproject.html">Home</a></li>
+                    <li><a href="liberalarts.html">Liberal Arts</a></li>
+                    <li><a href="universities.html">Universities</a></li>
+                    <li><a href="aboutusColleges.html">About Us</a></li>
+                </ul>
+            </nav>
+          <h1> College Choice Tool: Results Part I</h1>
+      <div class = "text">
+          <p> Based on your preferences, we have selected a unique list of colleges that we believe meets your criteria. There are a lot of results so only ten colleges will show on the page at one time: </p>
+          <p> *Tuition changes based on if the college or university is in your state* </p>
+          <p> *Values may appear as null if the information is not available in our dataset* </p>
+          <p> *You may have to click on the "More" button twice if nothing appears. This means that this specific page from the dataset does not hold colleges specific to your criteria*</p>
+          
+<!-- WHERE API DATA WILL GO IN JAVASCRIPT  -->
+          <ol id = "resultsforjs">
+
+          </ol>
+
+<!--Button for back and to load more schools-->
+              <button type = "button" id = "back4"> Back </button>
+                <button type = "button" id = "moreSchools"> More! </button>
+
+        <div id = "help">
+
+              </div>
+           </div>
+
+            <br>
+                   <footer>
+            <a href="https://www.usnews.com/best-colleges/rankings/national-universities">
+            <img id = "usnews" src = https://www.wane.com/wp-content/uploads/sites/21/2020/09/best-colleges.jpg alt = "US NEWS COLLEGE RANKING pic"></a>
+            <a href="https://collegereadiness.collegeboard.org/sat">
+            <img id = "satIMAGE" src = https://www.insidehighered.com/sites/default/server_files/media/SAT_2.jpg alt = "SAT pic"> </a>
+                <p>Authors: Arianna Cannon and Rebecca Lipton<br>
+                <a href="ao2646a@american.edu">ao2646a@american.edu</a> <br> <a href="rl5207a@student.american.edu">rl5207a@student.american.edu </a></p>
+              <p>
+            4400 Massachusetts Ave NW, Washington, DC 20016 </p>
+             <p> Created by two Computer Science students at American University </p> <br>
+
+  </footer>
+    </section>
+
+  </body>
+</html>
